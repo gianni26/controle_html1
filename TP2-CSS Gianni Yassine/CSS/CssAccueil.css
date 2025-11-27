@@ -1,0 +1,119 @@
+/* --- STYLE GÉNÉRAL --- */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1d5db; /* gris extérieur */
+}
+
+.page {
+    width: 950px;
+    margin: 20px auto;
+    border: 2px solid #4b5563;
+    background-color: #f5f5f5;
+}
+
+/* --- ENTÊTE --- */
+header {
+    background-color: #fff7ec;
+    border-bottom: 3px solid #e5d0b5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-petit {
+    width: 120px;
+    height: auto;
+    border: 1px solid #dddddd;
+}
+
+header h1 {
+    color: #8b4513;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* --- BLOC CENTRAL --- */
+.contenu {
+    padding: 20px;
+    background-color: #fdf9f4;
+    border-top: 4px solid #d5e2b8;
+    border-bottom: 4px solid #d5e2b8;
+}
+
+.bloc-centre {
+    display: flex;
+    gap: 20px;
+}
+
+
+.bloc-image img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #f0d4c0;
+}
+
+.bloc-texte {
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 5px solid #f0d4c0;
+}
+
+.bloc-texte h2 {
+    color: #8b4513;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.bloc-texte p {
+    font-size: 18px;
+    color: #6b4b2b;
+}
+
+.lien-produits {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b4513;
+    text-decoration: underline;
+}
+
+/* --- PIED DE PAGE --- */
+footer {
+    background-color: #fff7ec;
+    padding: 15px 20px;
+    border-top: 2px solid #e5d0b5;
+}
+
+.footer-haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coordonnees {
+    font-size: 14px;
+    color: #6b4b2b;
+}
+
+.coordonnees a {
+    color: #8b4513;
+}
+
+.contacts-titre {
+    text-align: center;
+    font-weight: bold;
+    color: #6b4b2b;
+    margin-bottom: 5px;
+}
+
+.reseaux {
+    text-align: center;
+    font-size: 28px;
+}
+
+.reseaux span {
+    margin: 0 8px;
+}
