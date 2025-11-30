@@ -1,3 +1,4 @@
+/* --------------------- GLOBAL --------------------- */
 body {
     margin: 0;
     padding: 0;
@@ -10,11 +11,12 @@ body {
 
 .body {
     border: 3px solid #162b50;
+
 }
 
 
 /* bloc principal
-- contour bloc titre  */
+/* contour bloc titre  */
 .HDR {
     background-color: #fbe4d6;
     width: 97%;
@@ -24,13 +26,12 @@ body {
 }
 
 /* titre position  et tout le reste */
-
 #Entete {
     background-color: white;
     display: flex;
     align-items: center;
     padding: 10px 20px;
-}
+    }
 
 /* Titre, postion */
 .titre-header {
@@ -41,17 +42,19 @@ body {
     flex-grow: 1;
 }
 
-/* bloc principal
-- Grand cadre vert + fond beige et il me permet de faire l'espace entre la ligne noir
- et le trait vert*/
 
+
+
+/* bloc principal
+/* Grand cadre vert + fond beige et il me permet de faire l'espace entre la ligne noir
+ et le trait vert*/
 .conteneur-global {
     width: 97%;
     padding: 15px;
 }
 
-/* Bloc intérieur blanc avec les contour vert */
 
+/* Bloc intérieur blanc avec les contour vert */
 .bloc-centre {
     background-color: rgb(251, 228, 214);
     border: 3px solid #91cf50;
@@ -71,8 +74,8 @@ body {
     display: block;
 }
 
-/* Texte principal a droite de l'image */
 
+/* Texte principal a droite de l'image */
 .bloc-texte {
     flex: 1.2;
     background-color: #ffffff;
@@ -99,7 +102,9 @@ body {
     color: #833b0c;
 }
 
-/* Bloc bas gauche infos   */
+
+
+/* --------------------- BLOC GAUCHE --------------------- */
 .footer-contact {
     display: flex;
     flex-direction: column;
@@ -114,9 +119,12 @@ body {
     margin-top: 5px;
 }
 
+
+
+
+
 /* ce bloc ces le bloc du bas
 -bloc bas les contour et tout  */
-
 .Foot {
     background-color: #fbe4d6;
     width: 97%;
@@ -167,3 +175,6 @@ body {
     width: 32px;
     height: 32px;
 }
+
+
+
