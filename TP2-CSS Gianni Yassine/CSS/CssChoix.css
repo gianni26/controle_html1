@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #c8c8c8;
+    border: #162b50 3px solid;
+}
+
+.HDR {
+    background-color: #fbe4d6;
+    width: 97%;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 0.1px;
+
+}
+
+#Entete {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 8px 1px 8px
+}
+
+
+#Entete h1 {
+    font-family: "Arial Black", sans-serif;
+    color: #833b0c;
+    margin: 0;
+}
+
+
+.img-gato {
+    width: 100px;
+    height: auto;
+
+}
+
+
+.conteneur-global {
+    background-color: #fbe4d6;
+    width: 97%;
+    margin: 20px auto 0 auto;
+    border: #91cf50 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Zone checkbox */
+.checkboxzone {
+    background-color: #ffffff;
+    margin: 20px ;
+    padding: 5px 20px;
+    width: 200px;
+    min-height: 300px;
+}
+
+.ligne-produit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #c36200 ;
+    font-weight: bold;
+}
+
+.checkbox1 h3 {
+    color: #833b0c;
+    font-weight: bold;
+
+}
+
+
+.input-nombre {
+    width: 60px;
+    border: 1.5px solid #833b0c;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.ligne-produit label {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.btn-valider {
+    background-color: #cfcdcd;
+    color: green;
+    border: 1.5px solid #548234;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 15px;
+
+}
+
+.btn-annuler {
+    background-color: #cfcdcd;
+    color: #f81f1f;
+    border: 1.5px solid #ff3f3f;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 12px;
+
+}
+.boutons-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.gatox3 {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-right: 50px;
+    margin-top: 40px;
+
+}
+
+
+.gatox3 img {
+    width: 30%;
+    height: 120px;
+    object-fit: fill;
+
+}
+
+.Chocolatpic {
+    border: #c4dfb3 2px solid;
+
+}
+
+
+.Foot {
+    background-color: #fbe4d6;
+    width: 97%;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 0.1px;
+
+}
+
+
+.pied-de-page {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 8px 1px 8px
+}
+
+footer p{
+
+    color: #833b0c;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+.RS{
+    display: flex;
+    flex-direction: column; /*mettre le contact au dessus des logos*/
+    gap: 1px;
+    margin-right: 350px;
+}
+.RS p{
+
+    text-align: center;
+
+}
+.RS img {
+    border: #fbe4d6 1px solid ;
+    width: 30px;
+    height: auto;;
+    object-fit: fill;
+}
+
+
+.gatox3 a{
+    margin-left: 75%;
+    color: #833b0c;
+}>
